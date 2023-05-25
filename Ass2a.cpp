@@ -68,3 +68,6 @@ int main(){
     cout << "Parallel Bubble Sort took : " << end_time - start_time << " seconds.\n";
     printArray(arr, n);
 }   
+
+// run = gcc name.cpp -lstdc++ -lgomp -o a.out
+// ./a.out
